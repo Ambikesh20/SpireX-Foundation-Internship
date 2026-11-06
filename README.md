@@ -2,7 +2,7 @@
 
 Welcome to my internship task repository at **SpireX Foundation**.
 
-This repository contains the tasks, assignments, and practical projects completed during my one-month Front-End Development Internship.
+This repository contains my practical assignments, projects, and learning progress during my one-month Front-End Development Internship.
 
 ## 👨‍💻 Internship Details
 
@@ -12,7 +12,7 @@ This repository contains the tasks, assignments, and practical projects complete
 | Intern Name | Ambikesh Kumar |
 | Position | Front-End Development Intern |
 | Intern ID | SXF-I26NV-001 |
-| Mode | Remote |
+| Internship Mode | Remote |
 | Duration | 1 November 2026 – 30 November 2026 |
 
 ---
@@ -26,32 +26,21 @@ This repository contains the tasks, assignments, and practical projects complete
 **Status:** Completed
 
 ### Learning Objectives
-
-The first session focused on understanding the fundamentals of Front-End Development.
-
-### Topics Covered
-
-**1. Visual Studio Code (VS Code)**
-- Installing and setting up VS Code.
-- Creating a project folder.
-- Opening the project folder in VS Code.
-
-**2. Frontend Fundamentals**
-- **HTML:** Provides the structure of a webpage.
-- **CSS:** Adds design and styling to a webpage.
-- **JavaScript:** Adds functionality and interactivity.
+- Installing and setting up Visual Studio Code.
+- Creating and opening a project folder.
+- Understanding HTML, CSS, and JavaScript fundamentals.
 
 ### Practical Assignment
 
-Created my first webpage using an `index.html` file.
+Created my first webpage using HTML.
 
-The webpage includes:
+**Requirements:**
 - My name.
 - A short introduction about myself.
 - One heading.
 - One paragraph.
 
-**Learning Outcome:** Understood the basic structure of an HTML webpage and learned how to create a simple webpage using VS Code.
+**Learning Outcome:** Learned the basic structure of an HTML webpage and practiced creating a simple webpage.
 
 ---
 
@@ -61,28 +50,70 @@ The webpage includes:
 
 ### Task Description
 
-Create a simple "About Me" webpage using the HTML tags learned during the session.
+Created a simple personal "About Me" webpage using HTML tags.
 
 ### Requirements
+- Display my name.
+- Add a short introduction.
+- List my skills.
+- Display my hobbies.
+- Add one image.
+- Include one website link.
 
-The webpage includes:
-
-1. **Your Name:** Displaying personal name.
-2. **About Me:** A short personal introduction.
-3. **Your Skills:** Listing technical and personal skills.
-4. **Your Hobbies:** Displaying personal interests and hobbies.
-5. **One Image:** Adding an image to the webpage.
-6. **One Website Link:** Including a clickable website link.
-
-### Practical Assignment
-
-Developed a simple personal introduction webpage using HTML.
-
-**Learning Outcome:** Practiced HTML elements, headings, paragraphs, lists, images, and hyperlinks to build a personal webpage.
+**Learning Outcome:** Practiced HTML headings, paragraphs, lists, images, and hyperlinks.
 
 ---
 
-## 📁 Project Structure
+## ✅ Task 3 – Registration Form
+
+**Status:** Completed
+
+### Task Description
+
+Created a simple Registration Form using HTML and CSS.
+
+### Form Fields
+- Name
+- Email
+- Phone Number
+- Password
+- Gender
+- Submit Button
+
+### Technologies Used
+- HTML
+- CSS
+
+**Learning Outcome:** Practiced HTML forms, input fields, form elements, and CSS styling.
+
+---
+
+## ✅ Task 4 – Interactive Profile Page
+
+**Status:** Completed
+
+### Task Description
+
+Created a simple Interactive Profile Page using HTML, CSS, and JavaScript.
+
+### Requirements
+- Display my name.
+- Add a short introduction.
+- Display my skills.
+- Add a "Click Me" button.
+- Use CSS to style the webpage.
+- Use JavaScript to display a message when the button is clicked.
+
+### Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+**Learning Outcome:** Practiced webpage styling, JavaScript event handling, button click interactions, and DOM manipulation.
+
+---
+
+# 📁 Project Structure
 
 ```text
 Spirex-Front-Development/
@@ -93,31 +124,52 @@ Spirex-Front-Development/
 ├── Task2/
 │   └── index.html
 │
+├── Task3/
+│   ├── index.html
+│   └── style.css
+│
+├── Task4/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
 ├── .gitignore
 └── README.md
 ```
 
-## 🛠️ Technologies & Tools Used
+*Note: Update the folder structure if your actual filenames or folders are different.*
+
+---
+
+# 🛠️ Technologies & Tools
 
 - HTML5
+- CSS3
+- JavaScript
 - Visual Studio Code
 - Git
 - GitHub
 
-## 🎯 Internship Progress
+---
+
+# 📊 Internship Progress
 
 | Task | Assignment | Status |
 |---|---|---|
-| Task 1 | Beginner Session – First Webpage | Completed |
-| Task 2 | About Me Webpage | Completed |
+| Task 1 | Beginner Session – First Webpage | ✅ Completed |
+| Task 2 | About Me Webpage | ✅ Completed |
+| Task 3 | Registration Form | ✅ Completed |
+| Task 4 | Interactive Profile Page | ✅ Completed |
 
-**Total Tasks Completed: 2**
+**Total Tasks Completed: 4**
 
-## 📌 Repository Purpose
+---
+
+# 🎯 Repository Purpose
 
 This repository documents my learning journey, practical assignments, and technical progress throughout the SpireX Foundation Front-End Development Internship.
 
-I will continue updating this repository as I complete new internship tasks.
+I will continue updating this repository as I complete additional internship tasks and projects.
 
 ---
 
@@ -131,4 +183,4 @@ I will continue updating this repository as I complete new internship tasks.
 
 ---
 
-*Learning, Building, and Growing with SpireX Foundation.* 🚀
+*Learning • Building • Growing with SpireX Foundation* 🚀
