@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Profile Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card-container">
+        <!-- Profile Card 1 -->
+        <div class="profile-card">
+            <img src="./pic1.avif" alt="Ambikesh Profile" class="profile-image">
+            <h2>Ambikesh Kumar</h2>
+            <p class="description">Frontend Developer</p>
+            <div class="skills"><strong>Skills:</strong> HTML, CSS, React</div>
+            <button class="view-btn" onclick="toggleProfileInfo(this)">View Profile</button>
+            <div class="extra-info">Ambikesh has 0 years of experience building accessible and responsive user interfaces.</div>
+        </div>
+
+        <!-- Profile Card 2 -->
+        <div class="profile-card">
+            <img src="./pic2.avif" alt="Karan Profile" class="profile-image">
+            <h2>Karan Raj</h2>
+            <p class="description">Backend Developer</p>
+            <div class="skills"><strong>Skills:</strong> Node.js, Python, SQL</div>
+            <button class="view-btn" onclick="toggleProfileInfo(this)">View Profile</button>
+            <div class="extra-info">Karan has 0 years of experience in building scalable APIs and secure database architectures.</div>
+        </div>
+
+        <!-- Profile Card 3 -->
+        <div class="profile-card">
+            <img src="./download.jpg" alt="Asmit Profile" class="profile-image">
+            <h2>Asmit</h2>
+            <p class="description">UI/UX Designer</p>
+            <div class="skills"><strong>Skills:</strong> Figma, Sketch, CSS</div>
+            <button class="view-btn" onclick="toggleProfileInfo(this)">View Profile</button>
+            <div class="extra-info">Asmit crafts beautiful user journeys with a heavy focus on user psychology.</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
