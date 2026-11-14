@@ -1,0 +1,152 @@
+/* Reset & Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #eef2f6;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Quiz Card */
+.quiz-container {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 550px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+/* Question Blocks */
+.question-block {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 18px;
+}
+
+.question {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0f172a;
+}
+
+label {
+  display: block;
+  padding: 8px 10px;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+label:hover {
+  background-color: #e2e8f0;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+/* Buttons & Hover Effects */
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+#submit-btn {
+  background-color: #2563eb;
+  color: white;
+}
+
+#submit-btn:hover {
+  background-color: #1d4ed8;
+}
+
+#restart-btn {
+  background-color: #64748b;
+  color: white;
+}
+
+#restart-btn:hover {
+  background-color: #475569;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Error & Result Boxes */
+.error {
+  color: #b91c1c;
+  background-color: #fee2e2;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 18px;
+  background-color: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  text-align: center;
+  color: #1e3a8a;
+}
+
+.result h2 {
+  margin-bottom: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 480px) {
+  .quiz-container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+}

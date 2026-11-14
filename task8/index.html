@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="quiz-container">
+    <h1>My Quiz App</h1>
+    
+    <form id="quiz-form">
+      <!-- Question 1 -->
+      <div class="question-block">
+        <p class="question">1. What is the full form of RAM in computers?</p>
+        <label><input type="radio" name="q1" value="A"> A) Read Access Memory</label>
+        <label><input type="radio" name="q1" value="B"> B) Random Access Memory</label>
+        <label><input type="radio" name="q1" value="C"> C) Run Accept Memory</label>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="question-block">
+        <p class="question">2. Which planet is known as the "Red Planet"?</p>
+        <label><input type="radio" name="q2" value="A"> A) Venus</label>
+        <label><input type="radio" name="q2" value="B"> B) Jupiter</label>
+        <label><input type="radio" name="q2" value="C"> C) Mars</label>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="question-block">
+        <p class="question">3. What is the largest ocean on Earth?</p>
+        <label><input type="radio" name="q3" value="A"> A) Pacific Ocean</label>
+        <label><input type="radio" name="q3" value="B"> B) Indian Ocean</label>
+        <label><input type="radio" name="q3" value="C"> C) Atlantic Ocean</label>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="question-block">
+        <p class="question">4. Who is known as the "Father of Computers"?</p>
+        <label><input type="radio" name="q4" value="A"> A) Albert Einstein</label>
+        <label><input type="radio" name="q4" value="B"> B) Charles Babbage</label>
+        <label><input type="radio" name="q4" value="C"> C) Isaac Newton</label>
+      </div>
+
+      <!-- Question 5 -->
+      <div class="question-block">
+        <p class="question">5. How many continents are there in the world?</p>
+        <label><input type="radio" name="q5" value="A"> A) 5</label>
+        <label><input type="radio" name="q5" value="B"> B) 6</label>
+        <label><input type="radio" name="q5" value="C"> C) 7</label>
+      </div>
+
+      <!-- Error message container -->
+      <p id="error-message" class="error hidden"></p>
+
+      <!-- Action Buttons -->
+      <div class="button-group">
+        <button type="submit" id="submit-btn">Submit</button>
+        <button type="button" id="restart-btn" class="hidden">Restart Quiz</button>
+      </div>
+    </form>
+
+    <!-- Result container -->
+    <div id="result-container" class="result hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
