@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="gallery-container">
+    <!-- Main Heading -->
+    <h1>My Image Gallery</h1>
+
+    <!-- Image Counter -->
+    <p id="image-counter" class="counter">Image 1 of 4</p>
+
+    <!-- Image Display Area -->
+    <div class="image-wrapper">
+      <img id="gallery-image" src="" alt="Gallery Image">
+    </div>
+
+    <!-- Image Caption (Optional Challenge) -->
+    <p id="image-caption" class="caption">Caption goes here</p>
+
+    <!-- Navigation Dots (Optional Challenge) -->
+    <div id="dots-container" class="dots-container"></div>
+
+    <!-- Control Buttons -->
+    <div class="controls">
+      <button id="prev-btn" class="btn">Previous</button>
+      <button id="play-pause-btn" class="btn secondary">Play Slideshow</button>
+      <button id="next-btn" class="btn">Next</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
