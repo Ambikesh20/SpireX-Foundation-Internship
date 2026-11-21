@@ -1,0 +1,39 @@
+Task 1 - Date: 02/11/2026
+
+Beginner Session – Task 1
+
+We will start with the basics and learn step by step.
+
+Today's Learning Tasks
+
+1. Install VS Code
+
+- Download and install Visual Studio Code (VS Code).
+- Create a new folder for your practice.
+- Open the folder in VS Code.
+
+2. Learn Frontend Fundamentals
+
+- HTML: Provides the structure of a webpage.
+- CSS: Adds design and styling to a webpage.
+- JavaScript: Adds functionality and interactivity to a webpage.
+
+3. First Practice Task
+
+Create a file named "index.html".
+
+Build a simple webpage containing:
+
+- Your name.
+- A short introduction about yourself.
+- One heading.
+- One paragraph.
+
+Today's Goal: Understand the basics of frontend development and create your first webpage.
+
+Don't worry about advanced topics. Focus on learning the fundamentals step by step.
+
+Submission Deadline: 3 November 2026, before 10:00 AM.
+
+Technical Lead,
+SpireX Foundation
