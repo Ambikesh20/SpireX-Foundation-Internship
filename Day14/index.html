@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="game-container">
+    <header class="game-header">
+      <h1>Rock, Paper, Scissors</h1>
+      <p class="subtitle">Choose your move to play against the computer</p>
+    </header>
+
+    <!-- Scoreboard -->
+    <section class="scoreboard" aria-label="Scoreboard">
+      <div class="score-card user-card">
+        <span class="score-label">You</span>
+        <span id="user-score" class="score-value">0</span>
+      </div>
+      <div class="score-card round-card">
+        <span class="score-label">Round</span>
+        <span id="round-count" class="score-value">0</span>
+      </div>
+      <div class="score-card computer-card">
+        <span class="score-label">Computer</span>
+        <span id="computer-score" class="score-value">0</span>
+      </div>
+    </section>
+
+    <!-- Versus Arena -->
+    <section class="arena" aria-label="Current Round Choices">
+      <div class="choice-display">
+        <div id="user-choice-box" class="choice-circle">❓</div>
+        <p class="choice-owner">Your Choice</p>
+        <p id="user-choice-text" class="choice-name">Waiting...</p>
+      </div>
+
+      <div class="vs-badge">VS</div>
+
+      <div class="choice-display">
+        <div id="computer-choice-box" class="choice-circle">❓</div>
+        <p class="choice-owner">Computer</p>
+        <p id="computer-choice-text" class="choice-name">Waiting...</p>
+      </div>
+    </section>
+
+    <!-- Round Result & Message -->
+    <section class="result-section" aria-live="polite">
+      <span id="result-badge" class="result-badge neutral">Make Your Move</span>
+      <p id="round-message" class="round-message">
+        Pick Rock, Paper, or Scissors below to start the game!
+      </p>
+    </section>
+
+    <!-- Player Controls -->
+    <section class="controls" aria-label="Game Choices">
+      <button class="choice-btn" data-choice="rock" aria-label="Choose Rock">
+        <span class="btn-emoji">🪨</span>
+        <span class="btn-label">Rock</span>
+      </button>
+      <button class="choice-btn" data-choice="paper" aria-label="Choose Paper">
+        <span class="btn-emoji">📄</span>
+        <span class="btn-label">Paper</span>
+      </button>
+      <button class="choice-btn" data-choice="scissors" aria-label="Choose Scissors">
+        <span class="btn-emoji">✂️</span>
+        <span class="btn-label">Scissors</span>
+      </button>
+    </section>
+
+    <!-- Restart Button -->
+    <footer class="game-footer">
+      <button id="restart-btn" class="restart-btn">🔄 Restart Game</button>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

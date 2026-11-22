@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Password Strength Checker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>Password Strength Checker</h1>
+    <p class="subtitle">Create a strong password and verify it in real time.</p>
+
+    <!-- Password Input -->
+    <div class="form-group">
+      <label for="password">Password</label>
+      <div class="input-wrapper">
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+          autocomplete="new-password"
+        />
+        <button type="button" id="togglePassword" class="toggle-btn" aria-label="Toggle password visibility">
+          Show
+        </button>
+      </div>
+    </div>
+
+    <!-- Strength Indicator Bar & Message -->
+    <div class="strength-section">
+      <div class="strength-bar-track">
+        <div id="strengthBar" class="strength-bar"></div>
+      </div>
+      <p id="strengthMessage" class="strength-message">Please enter a password.</p>
+    </div>
+
+    <!-- Password Requirements Checklist -->
+    <ul class="checklist" id="checklist">
+      <li id="rule-length"><span class="icon">○</span> At least 8 characters</li>
+      <li id="rule-upper"><span class="icon">○</span> At least one uppercase letter (A–Z)</li>
+      <li id="rule-lower"><span class="icon">○</span> At least one lowercase letter (a–z)</li>
+      <li id="rule-number"><span class="icon">○</span> At least one number (0–9)</li>
+      <li id="rule-special"><span class="icon">○</span> At least one special character (@, #, !, etc.)</li>
+    </ul>
+
+    <!-- Confirm Password Input (Bonus) -->
+    <div class="form-group">
+      <label for="confirmPassword">Confirm Password</label>
+      <div class="input-wrapper">
+        <input
+          type="password"
+          id="confirmPassword"
+          placeholder="Re-enter your password"
+          autocomplete="new-password"
+        />
+        <button type="button" id="toggleConfirmPassword" class="toggle-btn" aria-label="Toggle confirm password visibility">
+          Show
+        </button>
+      </div>
+      <p id="matchMessage" class="match-message"></p>
+    </div>
+
+    <!-- Reset Button (Bonus) -->
+    <button type="button" id="resetBtn" class="reset-btn">Reset</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
