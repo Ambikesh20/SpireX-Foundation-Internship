@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaCart — Vibrant Online Store</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">
+      <span class="logo-icon">🛍️</span>
+      <h1>Nova<span>Cart</span></h1>
+    </div>
+
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search gadgets, shoes, watches..." />
+      <span class="search-icon">🔍</span>
+    </div>
+
+    <button class="cart-btn" id="openCartBtn" aria-label="Open Cart">
+      🛒 Cart <span class="cart-badge" id="cartCount">0</span>
+    </button>
+  </header>
+
+  <!-- Animated Hero Banner -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="tag">🔥 Summer Tech & Lifestyle Drop</span>
+      <h2>Shop Bold. Live Colorful.</h2>
+      <p>Discover curated gear with instant cart updates and zero hassle.</p>
+    </div>
+  </section>
+
+  <!-- Main Product Showcase -->
+  <main class="container">
+    <div class="section-header">
+      <h3>Featured Products</h3>
+      <p id="resultCount">Showing 6 products</p>
+    </div>
+
+    <div class="product-grid" id="productGrid">
+      <!-- Products are dynamically rendered by script.js -->
+    </div>
+  </main>
+
+  <!-- Slide-out Cart Drawer -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h3>Your Shopping Cart</h3>
+      <button class="close-cart" id="closeCartBtn">&times;</button>
+    </div>
+
+    <div class="cart-items" id="cartItems">
+      <p class="empty-msg">Your cart is currently empty. Start adding some awesome gear!</p>
+    </div>
+
+    <div class="cart-footer">
+      <div class="total-row">
+        <span>Total Price:</span>
+        <span class="total-amount" id="totalPrice">$0.00</span>
+      </div>
+      <button class="checkout-btn" id="checkoutBtn">Checkout Now ✨</button>
+    </div>
+  </aside>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">Item added to cart!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
